@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.containers{
+    padding:0px 20px;
+    height: 100vh;
+    /* background-color:rgb(209, 141, 141); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cal-body{
+    /* padding: 20px 20px; */
+width: 50%;
+height:100vh;
+background-color: white;
+border-radius: 20px;
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+
+#answer{
+    width: 70%;
+    height: 70px;
+    font-size: 30px;
+    border-radius: 20px;
+    /* text-align: right; */
+
+}
+
+ input[type=number]{
+ text-align: right;
+ /* margin-right: 10px; */
+ padding-right: 20px;
+
+}
+
+
+
